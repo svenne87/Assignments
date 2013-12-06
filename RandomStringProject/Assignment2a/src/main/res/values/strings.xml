@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment2</string>
+    <string name="action_settings">Settings</string>
+    <string name="intro_number">N/A</string>
+    <string name="generate_button_text">Generate Number</string>
+    <string name="title_activity_randomString_">Random</string>
+    <string name="title_activity_bmi_">BMI</string>
+    <string name="title_activity_rgb">RGB</string>
+    <string name="title_activity_swipe">SWIPE</string>
+    <string name="title_activity_alarm">Alarm</string>
+    <string name="title_activity_countries_add">Add Country</string>
+    <string name="title_activity_countriesList">Countries</string>
+    <string name="title_activity_main">Main</string>
+
+</resources>

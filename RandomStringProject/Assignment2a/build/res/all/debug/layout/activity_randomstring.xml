@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:title="@string/title_activity_randomString_"
+    tools:context=".RandomString">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="170dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:typeface="monospace"
+        android:layout_weight="1"
+        android:text="@string/intro_number"
+        android:freezesText="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/generate_random"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/generate_button_text" />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/Svempa/AndroidStudioProjects/RandomStringProject/Assignment2a/src/main/res/layout/activity_randomstring.xml -->

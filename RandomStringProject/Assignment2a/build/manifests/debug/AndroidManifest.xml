@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="se.svenne.assignment2a">
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/title_activity_randomString_" android:name="se.svenne.assignment2a.RandomString">
+        </activity>
+        <activity android:label="@string/title_activity_bmi_" android:name="se.svenne.assignment2a.BmiActivity">
+        </activity>
+        <activity android:label="@string/title_activity_rgb" android:name="se.svenne.assignment2a.RGB">
+        </activity>
+        <activity android:label="@string/title_activity_swipe" android:name="se.svenne.assignment2a.StartActivity">
+        </activity>
+
+        <activity android:label="@string/title_activity_alarm" android:name="se.svenne.assignment2a.Alarm">
+        </activity>
+
+        <activity android:name="se.svenne.assignment2a.AlarmDialog" android:theme="@android:style/Theme.Dialog">
+       </activity>
+
+        <service android:name="se.svenne.assignment2a.MyAlarmService"/>
+        <receiver android:name="se.svenne.assignment2a.BroadCastReceiverAlarm"/>
+
+        <activity android:label="@string/title_activity_countries_add" android:name="se.svenne.assignment2a.CountriesAdd">
+        </activity>
+
+        <activity android:label="@string/title_activity_main" android:name="se.svenne.assignment2a.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

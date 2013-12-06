@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:title="@string/title_activity_rgb"
+    android:orientation="vertical"
+    tools:context=".RGB">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Red: 0"
+            android:id="@+id/textView_red"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+        <SeekBar
+            android:id="@+id/seekBar_red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="255"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Green: 0"
+            android:id="@+id/textView_green"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+        <SeekBar
+            android:id="@+id/seekBar_green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="255"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:text="Blue: 0"
+           android:id="@+id/textView_blue"
+           android:textSize="20sp"
+           android:layout_height="wrap_content"/>
+
+        <SeekBar
+            android:id="@+id/seekBar_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="255"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/background_2"
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="200dp"
+            android:id="@+id/generate_button"
+            android:text="Change Background"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/Svempa/AndroidStudioProjects/RandomStringProject/Assignment2a/src/main/res/layout/activity_rgb.xml -->
