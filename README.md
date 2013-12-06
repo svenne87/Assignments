@@ -1,0 +1,1 @@
+A collection app for Android with various assignments for the course. Coded in JAVA and certain parts are connected to a SQLite Database.
